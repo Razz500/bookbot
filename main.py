@@ -31,14 +31,6 @@ def count_characters(text):
         list_of_dicts.append(letter_count)
     return list_of_dicts
 
-def dict_to_list(dict):
-    dict_list = []
-    for key in dict:
-        new_dict = {}
-        new_dict[key] = dict[key]
-        dict_list.append(new_dict)
-    return dict_list
-
 def sort_dict(dict):
     return dict["count"]
 
