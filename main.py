@@ -7,6 +7,7 @@ def main():
         print("--- Begin report of books/frankenstein.txt ---")
         print(f"{word_count} words found in the document\n")
         format_list(char_count)
+        print("--- End report ---")
 
 def count_words(text):
     word_count = 0
@@ -44,7 +45,5 @@ def sort_dict(dict):
 def format_list(list):
     for dic in list:
         print(f"The '{dic["char"]}' character was found {dic["count"]} times")
-
-
 
 main()
